@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Nov  2 20:51:27 2026
+# Process ID         : 9852
+# Current directory  : C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3208 C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.xpr
+# Log file           : C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/vivado.log
+# Journal file       : C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM\vivado.jou
+# Running On         : DESKTOP-IH6EOU7
+# Platform           : Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-4430 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 8461 MB
+# Swap memory        : 5117 MB
+# Total Virtual      : 13578 MB
+# Available Virtual  : 1996 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.xpr
+update_compile_order -fileset sources_1
+archive_project D:/Clock_Divider_Dice_FSM.xpr.zip -temp_dir C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/.Xil/Vivado-9852-DESKTOP-IH6EOU7 -force -include_local_ip_cache

@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 11 16:20:21 2026
+# Process ID         : 12688
+# Current directory  : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent14220 D:\Clock_Divider_Dice_FSM.xpr\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.xpr
+# Log file           : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/vivado.log
+# Journal file       : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM\vivado.jou
+# Running On         : DESKTOP-IH6EOU7
+# Platform           : Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-4430 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 8461 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 18662 MB
+# Available Virtual  : 9721 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source counter_1to6_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top clk_div_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source clk_div_TB.tcl

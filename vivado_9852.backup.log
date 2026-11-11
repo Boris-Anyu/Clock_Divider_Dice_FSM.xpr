@@ -1,0 +1,113 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 28-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Nov  2 20:51:27 2026
+# Process ID         : 9852
+# Current directory  : C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3208 C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.xpr
+# Log file           : C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/vivado.log
+# Journal file       : C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM\vivado.jou
+# Running On         : DESKTOP-IH6EOU7
+# Platform           : Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-4430 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 8461 MB
+# Swap memory        : 5117 MB
+# Total Virtual      : 13578 MB
+# Available Virtual  : 1996 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 1723.758 ; gain = 282.133
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\dice_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\clk_div.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\anyub\ECE320_vivado\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.srcs\sources_1\new\counter_1to6.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+archive_project D:/Clock_Divider_Dice_FSM.xpr.zip -temp_dir C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/.Xil/Vivado-9852-DESKTOP-IH6EOU7 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/.Xil/Vivado-9852-DESKTOP-IH6EOU7' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/.Xil/Vivado-9852-DESKTOP-IH6EOU7/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/.Xil/Vivado-9852-DESKTOP-IH6EOU7/PrjAr/_X_/Clock_Divider_Dice_FSM.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.

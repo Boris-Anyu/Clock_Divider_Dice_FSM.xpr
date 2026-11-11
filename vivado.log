@@ -1,0 +1,244 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 28-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 11 16:20:21 2026
+# Process ID         : 12688
+# Current directory  : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent14220 D:\Clock_Divider_Dice_FSM.xpr\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.xpr
+# Log file           : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/vivado.log
+# Journal file       : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM\vivado.jou
+# Running On         : DESKTOP-IH6EOU7
+# Platform           : Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-4430 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 8461 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 18662 MB
+# Available Virtual  : 9721 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/anyub/ECE320_vivado/Clock_Divider_Dice_FSM/.Xil/Vivado-9852-DESKTOP-IH6EOU7/PrjAr/_X_' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:24 . Memory (MB): peak = 1727.199 ; gain = 341.668
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: dice_top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5008] Incremental synthesis strategy default
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3784
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2458.793 ; gain = 576.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dice_top' [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/dice_top.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/clk_div.v:13]
+	Parameter n bound to: 4 - type: integer 
+	Parameter logn bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/clk_div.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (0#1) [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/clk_div.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clk_div__parameterized0' [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/clk_div.v:13]
+	Parameter n bound to: 6 - type: integer 
+	Parameter logn bound to: 3 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/clk_div.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div__parameterized0' (0#1) [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/clk_div.v:13]
+INFO: [Synth 8-6157] synthesizing module 'counter_1to6' [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/counter_1to6.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'counter_1to6' (0#1) [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/counter_1to6.v:14]
+INFO: [Synth 8-6157] synthesizing module 'bcd_to_7seg' [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Desktop/bcd_to_7seg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_to_7seg' (0#1) [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Desktop/bcd_to_7seg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sSegDisplay_8' [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:1]
+WARNING: [Synth 8-567] referenced signal 'digit0' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+WARNING: [Synth 8-567] referenced signal 'digit1' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+WARNING: [Synth 8-567] referenced signal 'digit2' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+WARNING: [Synth 8-567] referenced signal 'digit3' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+WARNING: [Synth 8-567] referenced signal 'digit4' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+WARNING: [Synth 8-567] referenced signal 'digit5' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+WARNING: [Synth 8-567] referenced signal 'digit6' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+WARNING: [Synth 8-567] referenced signal 'digit7' should be on the sensitivity list [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'sSegDisplay_8' (0#1) [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/imports/OneDrive/Documents/ECE320/sSegdisplay_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dice_top' (0#1) [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/dice_top.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2575.098 ; gain = 692.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2575.098 ; gain = 692.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2575.098 ; gain = 692.871
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2575.098 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'blue'. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'win'. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lose'. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Roll'. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/constrs_1/imports/ECE320/DDR_NEXYS4_Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2595.402 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2925.941 ; gain = 1043.715
+21 Infos, 12 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:01:10 . Memory (MB): peak = 2925.941 ; gain = 1189.176
+launch_simulation
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Wed Nov 11 16:37:21 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'counter_1to6_TB'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesignTools/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter_1to6_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj counter_1to6_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/counter_1to6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_1to6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sim_1/new/counter_1to6_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_1to6_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2925.941 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_1to6_TB_behav xil_defaultlib.counter_1to6_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_1to6_TB_behav xil_defaultlib.counter_1to6_TB xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter_1to6
+Compiling module xil_defaultlib.counter_1to6_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter_1to6_TB_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 2925.941 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "counter_1to6_TB_behav -key {Behavioral:sim_1:Functional:counter_1to6_TB} -tclbatch {counter_1to6_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source counter_1to6_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2939.699 ; gain = 13.551
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter_1to6_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:36 . Memory (MB): peak = 2939.699 ; gain = 13.758
+set_property top clk_div_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Wed Nov 11 16:40:02 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'clk_div_TB'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesignTools/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'clk_div_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj clk_div_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.srcs/sim_1/new/clk_div_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_div_TB_behav xil_defaultlib.clk_div_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_div_TB_behav xil_defaultlib.clk_div_TB xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_div
+Compiling module xil_defaultlib.clk_div_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_div_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_div_TB_behav -key {Behavioral:sim_1:Functional:clk_div_TB} -tclbatch {clk_div_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source clk_div_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_div_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3440.207 ; gain = 0.000

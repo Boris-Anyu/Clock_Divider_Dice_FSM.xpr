@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Nov  3 11:18:58 2026
+# Process ID         : 10644
+# Current directory  : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent8652 D:\Clock_Divider_Dice_FSM.xpr\Clock_Divider_Dice_FSM\Clock_Divider_Dice_FSM.xpr
+# Log file           : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/vivado.log
+# Journal file       : D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM\vivado.jou
+# Running On         : 2UA6181JD0
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-6700T CPU @ 2.80GHz
+# CPU Frequency      : 2808 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17052 MB
+# Swap memory        : 2550 MB
+# Total Virtual      : 19602 MB
+# Available Virtual  : 10977 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/Clock_Divider_Dice_FSM.xpr
+update_compile_order -fileset sources_1
+save_project_as project_1 D:/Clock_Divider_Dice_FSM.xpr/project_1 -force
+import_files
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation
+source counter_1to6_TB.tcl
+open_run synth_1 -name synth_1
+open_run synth_1 -name synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Clock_Divider_Dice_FSM.xpr/project_1/project_1.runs/impl_1/dice_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Clock_Divider_Dice_FSM.xpr/project_1/project_1.runs/impl_1/dice_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+archive_project D:/Clock_Divider_Dice_FSM.xpr/project_1.xpr.zip -temp_dir D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/.Xil/Vivado-10644-2UA6181JD0 -force -include_local_ip_cache
+archive_project D:/Clock_Divider_Dice_FSM.xpr/project_1.xpr.zip -temp_dir D:/Clock_Divider_Dice_FSM.xpr/Clock_Divider_Dice_FSM/.Xil/Vivado-10644-2UA6181JD0 -force -include_local_ip_cache
+close_sim
